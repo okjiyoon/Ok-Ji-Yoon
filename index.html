@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+    <title>JY PORTFOLIO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: whitesmoke;
+            padding: 20px;
+            font-family: DIN, sans-serif;
+            margin: 0;
+        }
+
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        .row:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /*        화면상 가변적 레이아웃*/
+        /*        ipad*/
+        @media(max-width:500px) {
+            .column {
+                width: 50%;
+            }
+
+        }
+
+        /*        모바일*/
+        @media(max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: black;
+            overflow-x: hidden;
+            padding-top: 16px;
+        }
+
+        .sidenav a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+            display: block;
+            padding: 16px 10px 6px 25px;
+        }
+
+        .sidenav a:hover {
+            color: chartreuse;
+        }
+
+        .main {
+            margin-left: 270px;
+            margin-top: 57px;
+            font-size: 1.1rem;
+            padding: 10px 16px;
+            height: 2500px;
+        }
+    </style>
+</head>
+
+<body>
+   
+   
+   
+   
+    <!--       side-menu-->
+    <div class="sidenav">
+        <p style="padding: 20px">-</p>
+        <a href="#">-</a>
+        <a href="index2.html" target="_self">Editorial</a>
+        <a href="index4.html" target="_self">Graphic</a>
+        <a href="index3.html" target="_self">AD</a>
+        <a href="index5.html" target="_self">Illust</a>
+        <a href="index6.html" target="_self">Typographic</a>
+
+    </div>
+    <!--        전체 이미지 감싸는 div-->
+    <div class="main">
+
+        <!--        큰이미지-포맷-->
+        <div>
+            <h1>JY PORTFOLIO</h1>
+            <p>Welcome to JY'S PORTFOLIO SITE </p>
+        </div>
+
+        <div class="content">
+            <img src="mac-mockup001.jpg" alt="" style="width: 100%">
+            <h3>PORTFOLIO Website</h3>
+            <p>Site portfolio JY. It contains be Edited design, Graphic design, AD design and illustration.</p>
+        </div>
+
+        <!--        작은이미지 포맷-->
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="vuswlq.png" alt="" style="width: 100%">
+                    <h4>01 Editorial Design</h4>
+                    <h6>리플렛, 책, 브로슈어</h6>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="Cards.png" alt="" style="width: 100%">
+                    <h4>02 Graphic Design</h4>
+                    <h6>BI, 그래픽 디자인</h6>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="Screen%20Shot%202019-12-17%20at%2012.19.12%20PM.png" alt="" style="width: 85%">
+                    <h4>03 AD Design</h4>
+                    <h6>광고 포스터</h6>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="Screen%20Shot%202019-12-17%20at%2012.22.40%20PM.png" alt="" style="width: 82%">
+                    <h4>04 ILLUST</h4>
+                    <h6>일러스트 작품</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body></html>
+
+
+<!--
+
+탑버튼 ------------------------------
+
+
+<html>
+
+<head>
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 2rem;
+            border: 0;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #myBtn:hover {
+            background-color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div style="padding: 10px 10px 2/000px"></div>
+    <button onclick="topFunction()" id="myBtn">top</button>
+-->
